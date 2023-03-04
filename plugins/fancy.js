@@ -3,7 +3,7 @@
 * @author BlackAmda <https://github.com/BlackAmda>
 * @description A WhatsApp based 3ʳᵈ party application that provide many services with a real-time automated conversational experience
 * @link <https://github.com/BlackAmda/QueenAmdi>
-* @version 4.0.0
+* @version 4.0.5
 * @file  fancy.js - QueenAmdi fancy text generator
 
 © 2022 Black Amda, ANTECH. All rights reserved.
@@ -14,7 +14,7 @@ const { AMDI, fancy, Language } = require('queen_amdi_core/dist/scripts')
 const {FancyText, fancyList} = fancy;
 const Lang = Language.getString('fancy');
 
-AMDI({ cmd: "qudjdie", desc: Lang.FONT_DESC, type: "primary", react: "🌈" }, (async (amdiWA) => {
+/*AMDI({ cmd: "fancy", desc: Lang.FONT_DESC, type: "primary", react: "🌈" }, (async (amdiWA) => {
     let { input, prefix, reply, sendListMsg } = amdiWA.msgLayout;
 
     if (!input) return reply(Lang.NEED_WORD)
